@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.NumberOfOccurences", "01.NumberOfOccurences\01.NumberOfOccurences.csproj", "{C55A33B3-50B7-481B-9605-52C245FFAE90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ElementsThatPresentInItOddNumberOfTimes", "02.ElementsThatPresentInItOddNumberOfTimes\02.ElementsThatPresentInItOddNumberOfTimes.csproj", "{BE9AD677-443C-4EA2-B316-393B7B756E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WordAppearanceInTextFile", "03.WordAppearanceInTextFile\03.WordAppearanceInTextFile.csproj", "{AC8EABDB-C251-4F21-8543-6673A5B981D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.HashTableImplementation", "04.HashTableImplementation\04.HashTableImplementation.csproj", "{CA9C31E6-B0DA-49E8-84D6-38E0A0A3588E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.HashedSetImplementation", "05.HashedSetImplementation\05.HashedSetImplementation.csproj", "{10B09FAF-8886-4DB1-8393-C4AD4496BC7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C55A33B3-50B7-481B-9605-52C245FFAE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55A33B3-50B7-481B-9605-52C245FFAE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55A33B3-50B7-481B-9605-52C245FFAE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55A33B3-50B7-481B-9605-52C245FFAE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9AD677-443C-4EA2-B316-393B7B756E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9AD677-443C-4EA2-B316-393B7B756E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9AD677-443C-4EA2-B316-393B7B756E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9AD677-443C-4EA2-B316-393B7B756E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8EABDB-C251-4F21-8543-6673A5B981D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8EABDB-C251-4F21-8543-6673A5B981D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8EABDB-C251-4F21-8543-6673A5B981D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8EABDB-C251-4F21-8543-6673A5B981D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9C31E6-B0DA-49E8-84D6-38E0A0A3588E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9C31E6-B0DA-49E8-84D6-38E0A0A3588E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9C31E6-B0DA-49E8-84D6-38E0A0A3588E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9C31E6-B0DA-49E8-84D6-38E0A0A3588E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B09FAF-8886-4DB1-8393-C4AD4496BC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B09FAF-8886-4DB1-8393-C4AD4496BC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B09FAF-8886-4DB1-8393-C4AD4496BC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B09FAF-8886-4DB1-8393-C4AD4496BC7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
