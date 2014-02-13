@@ -31,20 +31,20 @@ namespace Convergent_series_sum
             Console.WriteLine(third);
         }
 
-        static double ConvergentSum(Func<double, double> termValue, double precision)
+        static double ConvergentSum(Func<double, double> value, double precision)
         {
             double previousSum = 0;
-            double sum = 0;
+            double currentSum = 0;
             double counter = 1;
             do
             {
-                previousSum = sum;
-                sum = previousSum + termValue(counter);
+                previousSum = currentSum;
+                currentSum = previousSum + value(counter);
                 counter++;
 
             } 
-            while (Math.Abs(sum - previousSum) >= precision);
-            return sum;
+            while (Math.Abs(currentSum - previousSum) >= precision);
+            return currentSum;
         }
 
         static double Factorial(double index)
